@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.acnt{
+    border: 1px solid black;
+    height: auto;
+    width: 100px;
+    float: right;
+    color: white;
+    background-color: #000000d5;
+}
+
+.indexBody{
+    background-image: url(media/food-supplements-2-1024x767.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.header {
+    border: 1px solid black;
+    height:60px;
+    background-color: #000000d5;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.header ul{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+}
+
+.header ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.div1{
+    margin:20px 0 0 10px;
+}
+
+/*****************************************/
+.aboutBody{
+    background-color: rgb(131, 239, 193);
+}
+
+.abouth1{
+    margin: 20px 0 0 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.aboutpre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px 0 0 10px;
+}
+
+.images{
+    margin:30px 0 50px 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+}
+
+.topItems {
+    text-align: center;
+}
+
+.leastSold{
+    margin-left: 10px;
+}
+
+.leastP{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leastItem{
+    margin: 30px 0 100px 70px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.leastItem img{
+    height: 200px;
+    width: 200px;
+}
+
+/*****************************************/
+.signbody{
+    background-color:  rgb(131, 239, 193);
+}
+
+.signbody form{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.259);
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    gap: 7px;
+    height: 350px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 30px 0 0 15px;
+}
+
+form input{
+    width: 200px;
+    height: 20px;
+}
+
+form button{
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.userp{
+    color: white;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.loginF{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.logoutbtn{
+    background-color: #000000d5;
+    text-decoration: none; 
+    color:white; 
+    float:right; 
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    padding-top: 20px;
+}
+
+/*****************************************/
+.loginbody{
+    background-color:  rgb(131, 239, 193);
+}
+
+.loginreg{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.loginreg a{
+    color: blue;
+    font-weight: bold;
+}
+
+.loginbody form{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.259);
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    gap: 7px;
+    height: 200px;
+}
+
+/****************************************/
+.images_shop{
+    margin:40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.img_block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_block p{
+    font-size: 20px;
+}
+
+.a_btn{
+    background-color: rgb(191, 190, 190);
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.a_btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.images_shop img{
+    height: 300px;
+    width: 300px;  
+}
+
+.quan_num{
+    width: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/**********************************/
+.edit_wrapper{
+    margin:200px 0 0 450px;
+    width: fit-content;
+  
+}
+
+.edit_table{
+    border: 1px solid black;
+    text-align: center;
+    width: 1000px;
+    height: 40px;
+    background-color:  rgb(243, 242, 242);
+}
+
+.edit_table td{
+    border: 1px solid black;
+    height: 30px;
+    width:500px;
+    
+}
+
+.add_item{
+    font-size: 20px;
+    float:right;
+    margin-right: 10px;
+}
+
+/************************************/
+.add_wrapper{
+    margin:200px 0 0 800px;
+}
+
+/************************************/
+.revh1{
+    margin: 20px 0 80px 10px;
+}
+
+.revbody{
+    background-color: #f0ead6 ;
+}
+
+.review{
+    background-color: #cdc4ab63;
+    padding: 10px;
+    width: 600px;
+    height: auto;
+}
+
+.rev_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 10px;
+}
+
+.inReviewDiv{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.review pre{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************************************/
+/* SHOPPING CART */
+
+.shopcartbod {
+    background-color: rgb(197, 212, 224);
+}
+
+.shop_table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.shop_table td{
+    font-size: 22px;
+    border: 1px solid black;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(243, 242, 242);
+}
+
+.shop_table button{
+    font-size: 20px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.784);
+    color: rgb(249, 175, 16);
+    cursor: pointer;
+}
+
+.shop_table button:hover{
+    font-size: 22px;
+    width: 115px;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: rgb(249, 175, 16);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.shopcartbod p{
+    margin: 50px 0 0 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cartwrapper{
+    margin: 50px 0 0 100px;
+}
+
+.pay{
+    font-size: 20px;
+    margin-top: 10px;
+    height: 35px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.784);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.pay:hover{
+    font-size: 22px;
+    margin-top: 10px;
+    height: 35px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+
+/****************************************/
+/* CONTACT */
+.contactwrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 1250px;
+}
+
+.conth1{
+    margin: 15px 0 0 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contform{
+    margin-top: 13%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contform textarea{
+    resize: none;
+    width: 500px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.labelinput{
+    height: 20px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.contsubmit {
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contactpre{
+    margin: 50px 0 0 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contbody{
+   background-color: #f0ead6;
+  
+}
+
+
+
